@@ -26,6 +26,14 @@ describe('My First Test', function() {
 
         cy.get("button[type=submit]")
       })
+      /*it.only('Galery app check Login with data', function() {
+        cy.visit('/')
+        cy.contains("Login").click()
+        cy.get('input[id="email"]').type("zoki.juhas@yahoo.com")
+        cy.get('input[id="password"]').type("vivify12")
+
+        cy.get("button[type=submit]")
+      })*/
   })
 
 
